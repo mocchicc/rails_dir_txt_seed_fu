@@ -17,8 +17,8 @@ First, install ``seed-fu`` as a development dependency:
 
 ## directory tree
 
-    ./rails_dir_txt_seed_fu.rb
-    ./dir/AAA.txt
+    rails_dir_txt_seed_fu.rb
+    /dir/AAA.txt
          /BBB.txt
          /CCC.txt
 
