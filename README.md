@@ -2,7 +2,7 @@ rails_dir_txt_seed_fu to read the text file in the directory (rake db:seed_fu)
 
 ## Usage
 
-First, install [seed-fu] as a development dependency:
+First, install [[seed-fu]] as a development dependency:
 
 * Rails 4.0
 * Ruby 2.0
