@@ -8,7 +8,7 @@ First, install gulp-usemin as a development dependency:
 * Ruby 2.0
 * seed-fu
 
-## Example (Blog Model)
+## Sample (Blog Model)
 
 
     Blog.seed_once do |s|
