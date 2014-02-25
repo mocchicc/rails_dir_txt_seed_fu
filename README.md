@@ -1,4 +1,4 @@
-``rails_dir_txt_seed_fu.rb`` to read the text file in the directory (rake db:seed_fu)
+``rails_dir_txt_seed_fu.rb`` to read the text file in the directory (rake db:seed_fu FILTER=blog)
 
 ## Usage
 
@@ -9,7 +9,6 @@ First, install ``seed-fu`` as a development dependency:
 * seed-fu
 
 ## Sample (Blog Model)
-
 
     Blog.seed_once do |s|
       s.title = filename
@@ -22,6 +21,10 @@ First, install ``seed-fu`` as a development dependency:
     /dir/AAA.txt
         /BBB.txt
         /CCC.txt
+
+## rake
+
+    rake db:seed_fu FILTER=blog
 
 ## output
 
