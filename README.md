@@ -16,9 +16,13 @@ First, install gulp-usemin as a development dependency:
       s.body = file.read
     end
 
+## directory tree
+
     ./rails_dir_txt_seed_fu.rb
     /dir/AAA.txt
         /BBB.txt
         /CCC.txt
+
+## output
 
     => Blog.create(title: "AAA" body: "ABCDEF", title: "BBB" body "ABCDEF", title: "CCC" body: "ABCDEF")
