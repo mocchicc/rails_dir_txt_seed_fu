@@ -1,4 +1,4 @@
-``rails_dir_txt_seed_fu.rb`` to read the text file in the directory (rake db:seed_fu FILTER=blog)
+``rails_dir_txt_seed_fu.rb`` to read the *.txt file in the directory (rake db:seed_fu FILTER=blog)
 
 ## Usage
 
